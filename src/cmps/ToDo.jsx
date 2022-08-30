@@ -13,7 +13,7 @@ function ToDo({ handleChange, id, toDo, isCompleted, onDelete }) {
             checked={isCompleted}
           />
 
-          <label className="col-sm-9"> {toDo} </label>
+          <label className="col-sm-9 "><p className = "text-start">{toDo}</p>  </label>
 
           <button
             className="col-sm-1 bg-primary "
@@ -25,7 +25,7 @@ function ToDo({ handleChange, id, toDo, isCompleted, onDelete }) {
               width="16"
               height="16"
               fill="white"
-              className="bi bi-trash "
+              class="bi bi-trash "
               viewBox="0 0 16 16"
             >
               <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z" />
