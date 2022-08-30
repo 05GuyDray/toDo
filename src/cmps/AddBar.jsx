@@ -1,14 +1,14 @@
 import React from "react";
 
 class AddBar extends React.Component {
-  state = { newToDo: "" };
+  state = { payload: "" };
 
   send = () => {
-    this.props.onAdd(this.state.newToDo);
+    this.props.onAdd(this.state.payload);
   };
   updateToDo = (event) => {
     const toDo = event.target.value;
-    this.setState({ newToDo: toDo });
+    this.setState({ payload: toDo });
   };
 
   render() {

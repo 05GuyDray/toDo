@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <SiteHeader />
       <Routes>
-        <Route path="/home" element={<Home data={getData()} />} />
+        <Route path="/" element={<Home data={getData()} />} />
         <Route path="/about" element={<About />} />
       </Routes>
     </div>

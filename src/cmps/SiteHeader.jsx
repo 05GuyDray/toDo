@@ -5,7 +5,7 @@ function SiteHeader() {
     <nav className="navbar navbar-expand-sm bg-dark navbar-dark">
       <ul className="navbar-nav">
         <li className="nav-item">
-          <Link to="/Home" className="nav-link active  ">
+          <Link to="/" className="nav-link active  ">
             Home
           </Link>
         </li>
